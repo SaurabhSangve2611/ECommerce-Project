@@ -1,0 +1,28 @@
+
+
+
+.social-media{
+	background-color: yellow;
+	
+	padding-top: 11px;
+	width:100%
+	text-align:center;
+	margin-top:13px;
+}
+.social-media ul{
+	
+	list-style:none;
+	margin-left:30px
+
+}
+.social-media ul li{
+	display:inline-block;
+	cursor:pointer;
+	margin:0px 15px;
+		
+}
+.social-media img{
+	
+	width:40px;
+	height:40px;
+}

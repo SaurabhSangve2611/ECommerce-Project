@@ -1,0 +1,105 @@
+.custom-bg{
+	background:#000066!important;
+}
+.admin .card{
+	background:#ffd8cc;
+	border:2px solid black;
+}
+
+.admin .card:hover{
+	background:#c0c0c0;
+	cursor:pointer;
+	
+}
+
+.login .card{
+	
+	 background: linear-gradient(to bottom, #003300 0%, #000066 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    
+}
+.register .card{
+	
+	 background: linear-gradient(to bottom, #003300 0%, #000066 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    
+}
+
+.list-group-item.active{
+	background:#000066!important;
+	border-color:#000066;
+}
+.discount-label{
+	font-size: 12px!important;
+	font-style: italic!important;
+	text-decoration:line-through!important;
+	color: yellow;
+}
+/* .product-card{
+	background:#ffd8cc;
+	border:2px solid black;
+}
+ */
+.product-card:hover{
+	background:#ffd8cc;
+	border:2px solid black;
+	
+	cursor:pointer;
+	
+}
+
+
+.table tr:nth-child(even){
+ background-color: #eee;
+}
+.table tr:nth-child(odd) {
+   background-color: #fff;
+}
+
+
+#toast
+{
+	min-width: 300px;
+	position: fixed;
+	bottom: 30px;
+	left: 270px;
+	margin-left: 150px;
+	background: #333;
+	padding: 15px;
+	color: white;
+	text-align:center;
+	z-index: 1;
+	font-size: 18px;
+	visibility: hidden;
+	box-shadow: 0px 0px 100px #000;
+}
+
+#toast.display{
+	visibility: visible;
+	animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+}
+
+@keyframes fadeIn{
+	from{
+	bottom: 0;
+	opacity: 0;
+	}
+	
+	to{
+	bottom: 30px;
+	opacity: 1;
+	}
+}	
+	
+ @keyframes fadeOut{
+	from{
+	bottom: 30px;
+	opacity: 1;
+	}
+	to{
+	bottom: 0;
+	opacity: 0;
+	}
+}	
+
+
